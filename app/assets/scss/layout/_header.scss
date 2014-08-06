@@ -1,0 +1,16 @@
+/* ===========================
+Layout/Header
+=========================== */
+
+#header {
+	background: {
+		image: image-url("bg-top.png");
+		repeat: repeat-x;
+		position: center top;
+		color: rgba(0, 0, 0, 0);
+	};
+	margin: 0 auto;
+	min-height:10px;
+	position: relative;
+	
+}

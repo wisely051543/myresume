@@ -1,19 +1,26 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
+/* Compass */
+@import "compass/reset";
 @import "compass/css3";
 
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+/* Tools */
+@import "tools/setting";
+@import "tools/extend";
 
-.thumbnail {
-  height: 200px;
+/* Base */
+@import "base/base";
 
-  img.pull-right {
-    width: 50px;
-  }
-}
+/* Fonts */
+
+/* Layout */
+@import "layout/header";
+@import "layout/content";
+@import "layout/footer";
+
+/* Modules */
+@import "modules/block";
+@import "modules/grid";
+@import "modules/hover";

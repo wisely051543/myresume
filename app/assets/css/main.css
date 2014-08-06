@@ -7891,19 +7891,381 @@ button.close {
     display: none !important;
   }
 }
-/* line 6, ../scss/main.scss */
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+/* Compass */
+/* line 17, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
-/* line 13, ../scss/main.scss */
-.thumbnail {
-  height: 200px;
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
 }
-/* line 16, ../scss/main.scss */
-.thumbnail img.pull-right {
-  width: 50px;
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Tools */
+/* ===========================
+tools/extend
+
+extend Bootstrap attribute
+=========================== */
+/* line 7, ../scss/tools/_extend.scss */
+.mg-bm {
+  margin-bottom: 15px;
+}
+
+/* Base */
+/* ===========================
+Base
+=========================== */
+/* line 5, ../scss/base/_base.scss */
+body {
+  background-image: url('../../images/bkg.png?1407051623');
+  background-repeat: scroll;
+  background-color: #f3e8cd;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* line 17, ../scss/base/_base.scss */
+a {
+  color: #df2e30;
+  text-decoration: none;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+/* line 22, ../scss/base/_base.scss */
+a:hover {
+  color: #bd1d1f;
+}
+
+/* line 27, ../scss/base/_base.scss */
+::-moz-selection {
+  background: #df2e30;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 32, ../scss/base/_base.scss */
+::selection {
+  background: #df2e30;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 38, ../scss/base/_base.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* Fonts */
+/* Layout */
+/* ===========================
+Layout/Header
+=========================== */
+/* line 5, ../scss/layout/_header.scss */
+#header {
+  background-image: url('../../images/bg-top.png?1407055097');
+  background-repeat: repeat-x;
+  background-position: center top;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 auto;
+  min-height: 10px;
+  position: relative;
+}
+
+/* ===========================
+Layout/Content
+=========================== */
+/* line 5, ../scss/layout/_content.scss */
+#wrap {
+  padding: 20px;
+}
+
+/* line 9, ../scss/layout/_content.scss */
+#content {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: auto;
+}
+
+/* line 16, ../scss/layout/_content.scss */
+#main {
+  float: left;
+}
+
+/* ===========================
+Layout/Footer
+=========================== */
+/* line 5, ../scss/layout/_footer.scss */
+#footer {
+  background-image: url('../../images/bg-footer.png?1407055877');
+  background-repeat: repeat-x;
+  background-position: center top;
+  background-color: rgba(0, 0, 0, 0);
+  clear: both;
+  color: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 18, ../scss/layout/_footer.scss */
+#footer .wrap {
+  padding: 40px 0;
+}
+
+/* Modules */
+/* ===========================
+modules/block
+=========================== */
+/* line 5, ../scss/modules/_block.scss */
+.entry-block {
+  background-image: url('../../images/bg-post.png?1407076147');
+  background-repeat: scroll;
+  background-color: #fffcf5;
+  border-bottom: 3px solid #f2ede5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(73, 36, 13, 0.4) 0 1px 2px;
+  -moz-box-shadow: rgba(73, 36, 13, 0.4) 0 1px 2px;
+  box-shadow: rgba(73, 36, 13, 0.4) 0 1px 2px;
+  margin: 20px 1px;
+  padding: 20px;
+  position: relative;
+}
+
+/* ===========================
+modules/grid
+=========================== */
+/* line 5, ../scss/modules/_grid.scss */
+.item {
+  background: none repeat scroll 0 0 #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: #aaaaaa 0 0 5px;
+  -moz-box-shadow: #aaaaaa 0 0 5px;
+  box-shadow: #aaaaaa 0 0 5px;
+  clear: left;
+  position: relative;
+}
+/* line 11, ../scss/modules/_grid.scss */
+.item .item-shot {
+  padding: 10px;
+}
+/* line 14, ../scss/modules/_grid.scss */
+.item img {
+  max-height: 400px;
+  max-width: 100%;
+}
+/* line 18, ../scss/modules/_grid.scss */
+.item .item-img {
+  height: 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding-bottom: 70%;
+}
+/* line 24, ../scss/modules/_grid.scss */
+.item h1 {
+  margin: 10px 0 0;
+  text-align: right;
+}
+
+/* line 30, ../scss/modules/_grid.scss */
+.icon {
+  float: left;
+  margin: -5px 0 0 0;
+  width: 32px;
+  height: 32px;
+}
+/* line 35, ../scss/modules/_grid.scss */
+.icon.php {
+  background-image: url('../../images/page_php_32.png?1291303234');
+  background-repeat: no-repeat;
+}
+/* line 41, ../scss/modules/_grid.scss */
+.icon.asp {
+  background-image: url('../../images/page_asp_32.png?1291303234');
+  background-repeat: no-repeat;
+}
+/* line 47, ../scss/modules/_grid.scss */
+.icon.js {
+  background-image: url('../../images/page_javascript_32.png?1291303234');
+  background-repeat: no-repeat;
+}
+
+/* ===========================
+modules/hover
+=========================== */
+/* line 5, ../scss/modules/_hover.scss */
+.view {
+  text-align: center;
+  display: block;
+  position: relative;
+}
+/* line 10, ../scss/modules/_hover.scss */
+.view img {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/* line 14, ../scss/modules/_hover.scss */
+.view p {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 12px;
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 20px;
+  text-align: center;
+}
+/* line 24, ../scss/modules/_hover.scss */
+.view:hover p {
+  -webkit-transform: translateX(0px) rotate(0deg);
+  -moz-transform: translateX(0px) rotate(0deg);
+  -ms-transform: translateX(0px) rotate(0deg);
+  -o-transform: translateX(0px) rotate(0deg);
+  transform: translateX(0px) rotate(0deg);
+  -webkit-transition-delay: 0.4s;
+  -moz-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+/* line 32, ../scss/modules/_hover.scss */
+.view .mask {
+  background-color: rgba(0, 0, 0, 0.6);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transform: translate(460px, -100px) rotate(180deg);
+  -moz-transform: translate(460px, -100px) rotate(180deg);
+  -ms-transform: translate(460px, -100px) rotate(180deg);
+  -o-transform: translate(460px, -100px) rotate(180deg);
+  transform: translate(460px, -100px) rotate(180deg);
+  -webkit-transition: all 0.2s 0.4s;
+  -webkit-transition-delay: ease-in-out;
+  -moz-transition: all 0.2s 0.4s ease-in-out;
+  -o-transition: all 0.2s 0.4s ease-in-out;
+  transition: all 0.2s 0.4s ease-in-out;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+/* line 47, ../scss/modules/_hover.scss */
+.view:hover .mask {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+/* line 56, ../scss/modules/_hover.scss */
+.view h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 15px;
+  padding: 2%;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 10% 0 0 0;
+  -webkit-transform: translateY(-100px);
+  -moz-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  -o-transform: translateY(-100px);
+  transform: translateY(-100px);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 74, ../scss/modules/_hover.scss */
+.view:hover h2 {
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }

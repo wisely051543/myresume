@@ -1,0 +1,21 @@
+/* ===========================
+Layout/Footer
+=========================== */
+
+#footer {
+	background: {
+		image: image-url("bg-footer.png");
+		repeat: repeat-x;
+		position: center top;
+		color: rgba(0, 0, 0, 0);
+	};
+	clear: both;
+	color: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+
+	.wrap {
+		padding: 40px 0;
+	}
+}

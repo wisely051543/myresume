@@ -1,0 +1,53 @@
+/* ===========================
+modules/grid
+=========================== */
+
+.item {
+    background: none repeat scroll 0 0 #fff;
+    @include border-radius(3px);
+    @include box-shadow(#aaaaaa 0 0 5px);
+    clear: left;
+    position: relative;
+    .item-shot {
+        padding: 10px;
+    }
+    img {
+        max-height: 400px;
+        max-width: 100%;
+    }
+    .item-img {
+        height: 0;
+        max-width: 100%;
+        overflow: hidden;
+        padding-bottom: 70%;
+    }
+    h1 {
+        margin: 10px 0 0;
+        text-align: right;
+    }
+}
+
+.icon {
+    float: left;
+    margin: -5px 0 0 0;
+    width: 32px;
+    height: 32px;
+    &.php {
+        background: {
+            image: image-url("page_php_32.png");
+            repeat: no-repeat;
+        };
+    }
+    &.asp {
+        background: {
+            image: image-url("page_asp_32.png");
+            repeat: no-repeat;
+        };
+    }
+    &.js {
+        background: {
+            image: image-url("page_javascript_32.png");
+            repeat: no-repeat;
+        };
+    }
+}
