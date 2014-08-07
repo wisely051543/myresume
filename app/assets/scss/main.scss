@@ -14,7 +14,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "base/base";
 
 /* Fonts */
-
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 /* Layout */
 @import "layout/header";
 @import "layout/content";
@@ -24,3 +26,5 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "modules/block";
 @import "modules/grid";
 @import "modules/hover";
+@import "modules/section";
+@import "modules/button";

@@ -1,0 +1,33 @@
+/* ===========================
+modules/section
+=========================== */
+
+.section-title {
+    img {
+        border-radius: 50%;
+        float: left;
+        margin: 0 8px 0 0;
+        vertical-align: middle;
+        width: 48px;
+    }
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+}
+
+.section-slide {
+    background: none repeat scroll 0 0 #fff;
+    @include border-radius(3px);
+    @include box-shadow(#aaaaaa 0 0 5px);
+    clear: left;
+    position: relative;
+}
+
+.section-article {
+    p::after {
+        // padding-left: 10px;
+        content: "\A\A";
+        white-space: pre;
+    }
+}

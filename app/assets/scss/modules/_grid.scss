@@ -2,20 +2,20 @@
 modules/grid
 =========================== */
 
-.item {
+.grid {
     background: none repeat scroll 0 0 #fff;
     @include border-radius(3px);
     @include box-shadow(#aaaaaa 0 0 5px);
     clear: left;
     position: relative;
-    .item-shot {
+    .grid-shot {
         padding: 10px;
     }
     img {
         max-height: 400px;
         max-width: 100%;
     }
-    .item-img {
+    .grid-img {
         height: 0;
         max-width: 100%;
         overflow: hidden;

@@ -1,0 +1,41 @@
+/* ===========================
+modules/button
+=========================== */
+
+.angle-left {
+    background-color: #BC8F27;
+    border-radius: 20px;
+    display: inline-block;
+    height: 41px;
+    position: relative;
+    top: 10px;
+    transform: rotate(45deg);
+    width: 41px;
+    &:before {
+        background-color: white;
+        content: "";
+        height: 20px;
+        left: 13px;
+        position: absolute;
+        top: 8px;
+        width: 1px;
+    }
+    &:after {
+        background-color: white;
+        content: "";
+        height: 1px;
+        left: 13px;
+        position: absolute;
+        top: 27px;
+        width: 20px;
+    }
+    &:hover {
+        background-color: #DAA730;
+    }
+}
+
+.nav-left {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #BC8F27;
+}
