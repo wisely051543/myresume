@@ -1,4 +1,4 @@
-http_path = '/'
+
 css_dir = 'app/assets/scss'
 sass_dir = 'app/assets/scss'
 images_dir = 'app/images'
