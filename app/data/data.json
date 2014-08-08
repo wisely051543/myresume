@@ -1,0 +1,311 @@
+[{
+    "id": 1,
+    "thumb_img": "images/bac_thumb.png",
+    "name": "BAC Messaging Platform",
+    "type": "js",
+    "url": "",
+    "description": "The BAC Messaging Platform is a website system that importing assets and scheduling content to Sedna player for the BAC (Bank of America Corp) electric screen in Time Square.",
+    "logo_img": "images/bac_logo.png",
+    "html": "<p>The BAC Messaging Platform is a website system that importing assets and scheduling content to Sedna player for the BAC (Bank of America Corp) electric screen in Time Square.</p><p>For the requirement, we've developed the CSS animation web layer and playing video based on HTML5. This feature can combine multiple layer into a full screen version of HTML content, arranging the layers by dragging and dropping and scheduling final container showing time on calendar.</p><p>In this project, I responsible of front-end Javascript coding by framework Angular JS and CSS modification.</p>",
+    "tags": "CSS3,HTML5,Javascript,AngularJS,Grunt,Bootstrap",
+    "images": [{
+        "id": 1,
+        "img": "images/bac_01.png",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/bac_02.png",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/bac_03.png",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/bac_04.png",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/bac_05.png",
+        "desc": ""
+    }]
+}, {
+    "id": 2,
+    "thumb_img": "images/powerbar_thumb.png",
+    "name": "PowerBar Website",
+    "type": "asp",
+    "url": "http://www.powerbar.com",
+    "description": "Worked with Night Agency front-end team on the website for Nestle’s",
+    "logo_img": "images/powerbar_logo.png",
+    "html": "<p>Worked with Night Agency front-end team on the website for Nestle’s Powerbar. We're creating Asp.net MVC 3 web application to connect Umbraco as CMS system. The website administrator can easy to manage contents.</p>",
+    "tags": "ASP.NET 4.0,MVC 3,MSSQL 2008R2,Umbraco,Javascript,JQuery",
+    "images": [{
+        "id": 1,
+        "img": "images/powerbar_01.png",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/powerbar_02.png",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/powerbar_03.png",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/powerbar_04.png",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/powerbar_05.png",
+        "desc": ""
+    }]
+}, {
+    "id": 3,
+    "thumb_img": "images/callaway_thumb.png",
+    "name": "Callaway Garden Mobile",
+    "type": "php",
+    "url": "http://mobile.callawaygardens.com/",
+    "description": "Creating cross-platform website by using API to acquire data from online Drupal CMS.",
+    "logo_img": "images/callaway_logo.png",
+    "html": "<p>Creating cross-platform website by using API to acquire data from online Drupal CMS. Users can browse the latest activity, and booking at Callaway Garden from their mobile devices.</p>",
+    "tags": "PHP,Drupal,MYSQL,CSS3,Javascript,JQuery",
+    "images": [{
+        "id": 1,
+        "img": "images/callaway_01.png",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/callaway_02.png",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/callaway_03.png",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/callaway_04.png",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/callaway_05.png",
+        "desc": ""
+    }]
+}, {
+    "id": 4,
+    "thumb_img": "images/cricket_thumb.png",
+    "name": "Cricket Reporting System",
+    "type": "php",
+    "url": "",
+    "description": "This is a user authorization and requests approval system.",
+    "logo_img": "images/cricket_logo.png",
+    "html": "<p>This is a user authorization and requests approval system. Every request has own metadata, it has serial number of projects, be related to other sub request, have attached files, and can be run through a approval workflow before it is released.</p>",
+    "tags": "PHP,Codeigniter,MYSQL,Bootstrap,CSS3,Javascript,JQuery",
+    "images": [{
+        "id": 1,
+        "img": "images/cricket_01.png",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/cricket_02.png",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/cricket_03.png",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/cricket_04.png",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/cricket_05.png",
+        "desc": ""
+    }]
+}, {
+    "id": 5,
+    "thumb_img": "images/valspar_thumb.png",
+    "name": "Valspar - Facebook App",
+    "type": "js",
+    "url": "",
+    "description": "In this Facebook app each user can sliding autographed handprints image and biding by clicking button.",
+    "logo_img": "images/valspar_logo.png",
+    "html": "<p>In this Facebook app each user can sliding autographed handprints image and biding by clicking button. This is created by implementing Jquery library - ContentFlow,  it has cover-flow effect using javascript to scroll through a bunch of images.</p>",
+    "tags": "Javascript,JQuery",
+    "images": [{
+        "id": 1,
+        "img": "images/valspar_01.png",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/valspar_02.png",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/valspar_03.png",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/valspar_04.png",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/valspar_05.png",
+        "desc": ""
+    }]
+}, {
+    "id": 6,
+    "thumb_img": "images/bespoke_thumb.png",
+    "name": "Bespoke Atelier - Webserver",
+    "type": "php",
+    "url": "http://www.thetigerparty.com/bespoke/Promo/index.html",
+    "description": "Bespoke Atelier is a social media app, collecting and sharing up-to-date web content from website.",
+    "logo_img": "images/bespoke_logo.png",
+    "html": "<p>Bespoke Atelier is a social media app, collecting and sharing up-to-date web content from website.</p><p>Work on PHP web service. The server will send the media information to IOS app in XML format and receiving the post from app to save data in database.</p>",
+    "tags": "PHP,MYSQL",
+    "images": [{
+        "id": 1,
+        "img": "images/bespoke_01.png",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/bespoke_02.png",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/bespoke_03.png",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/bespoke_04.png",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/bespoke_05.png",
+        "desc": ""
+    }]
+}, {
+    "id": 7,
+    "thumb_img": "images/ghana_thumb.png",
+    "name": "Ghana Website",
+    "type": "php",
+    "url": "http://ghdistrictsmonitor.org/",
+    "description": "To ensure that Ghana governments are held accountable to infrastructure and services",
+    "logo_img": "images/ghana_logo.png",
+    "html": "<p>To ensure that Ghana governments are held accountable to infrastructure and services, we Implement an enhanced redesigned version of the open source web app platform Taarifa (open source web API)– for information collection, visualization and interactive mapping to see locations of all reports.</p>",
+    "tags": "PHP,Taarifa,MYSQL,CSS3,Javascript,JQuery",
+    "images": [{
+        "id": 1,
+        "img": "images/ghana_01.png",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/ghana_02.png",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/ghana_03.png",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/ghana_04.png",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/ghana_05.png",
+        "desc": ""
+    }]
+}, {
+    "id": 8,
+    "thumb_img": "images/mtv_thumb.png",
+    "name": "MTV Music Experiment",
+    "type": "app",
+    "url": "http://www.youtube.com/watch?v=6Jz55cGEmNA",
+    "description": "The windows app which users can take photos, add filters and apply stickers to the photos.",
+    "logo_img": "images/mtv_logo.png",
+    "html": "<p>The windows app which users can take photos, add filters and apply stickers to the photos. The app can then be shared via Twitter, Facebook and Email. The photos from the app can also be printed during the event.</p>",
+    "tags": ".Net C#,Facebook API,Twitter API,NetFx library",
+    "images": [{
+        "id": 1,
+        "img": "images/mtv_01.jpg",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/mtv_02.jpg",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/mtv_03.jpg",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/mtv_04.jpg",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/mtv_05.png",
+        "desc": ""
+    }]
+}, {
+    "id": 9,
+    "thumb_img": "images/abc_thumb.png",
+    "name": "ABC Website Upgrade",
+    "type": "asp",
+    "url": "",
+    "description": "The scheduling website which scheduling videos on Time Square ABC electric screen.",
+    "logo_img": "images/abc_logo.png",
+    "html": "<p>The scheduling website which scheduling videos on Time Square ABC electric screen. In version one, we fixed the code of causing error and enhancing website with advanced features.</p><p>The administrator can drag and drop a event on any time to change the time in day schedule and the vendor can view the report by filtering playing time, playing period…</p>",
+    "tags": "ASP.NET 4.0,MSSQL,Javascript",
+    "images": [{
+        "id": 1,
+        "img": "images/abc_01.png",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/abc_02.png",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/abc_03.png",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/abc_04.jpg",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/abc_05.jpg",
+        "desc": ""
+    }]
+}, {
+    "id": 10,
+    "thumb_img": "images/samsung_thumb.png",
+    "name": "SAMSUNG CES 2013 event",
+    "type": "app",
+    "url": "http://www.youtube.com/watch?v=LdMisM79d40",
+    "description": "we produced an Android app for Samsung that simulated the Allshare experience between a Samsung device.",
+    "logo_img": "images/samsung_logo.png",
+    "html": "<p>Working with B-Reel productions and Worldstage, we produced an Android app for Samsung that simulated the Allshare experience between a Samsung device and a Smart TV. Developing SCS (Show Control System) is used for controlling 26 SAMSUNG televisions and 20 Android Mobile devices to change multiple videos concurrently, and it's developed by C#.</p>",
+    "tags": ".NET C#, Android",
+    "images": [{
+        "id": 1,
+        "img": "images/samsung_01.jpg",
+        "desc": ""
+    }, {
+        "id": 2,
+        "img": "images/samsung_02.jpg",
+        "desc": ""
+    }, {
+        "id": 3,
+        "img": "images/samsung_03.jpg",
+        "desc": ""
+    }, {
+        "id": 4,
+        "img": "images/samsung_04.jpg",
+        "desc": ""
+    }, {
+        "id": 5,
+        "img": "images/samsung_05.png",
+        "desc": ""
+    }]
+}]

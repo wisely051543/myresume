@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>frontend</title>
+    <title>MyResume</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -27,126 +27,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- header -->
-    <div id="header" class="group">
-    </div>
-
-    <!--content -->
-    <div id="content" class="group">
-        <div id="wrap">
-            <div class="entry-block">
-                <div class="row">
-
-                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 mg-bm-15">
-                        <div class="grid">
-                            <div class="grid-shot">
-                                <a href="#">
-                                    <div class="grid-img view">
-                                        <img src="images/bac_thumb.png" alt="">
-                                        <div class="mask">
-                                            <h2>BAC Messaging Plaform</h2>
-                                            <p>The BAC Messaging Platform is a website system that importing assets and scheduling content to Sedna player for the BAC (Bank of America Corp) electric screen in Time Square. </p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="hidden-xs hidden-sm">
-                                    <div class="icon php"></div>
-                                    <h1>BAC Messaging Platform</h1>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 mg-bm-15">
-                        <div class="grid">
-                            <div class="grid-shot">
-                                <a href="#">
-                                    <div class="grid-img view">
-                                        <img src="images/bac_thumb.png" alt="">
-                                        <div class="mask">
-                                            <h2>Title</h2>
-                                            <p>Your Text</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="hidden-xs hidden-sm">
-                                    <div class="icon asp"></div>
-                                    <h1>BAC Messaging Platform</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 mg-bm-15">
-                        <div class="grid">
-                            <div class="grid-shot">
-                                <a href="#">
-                                    <div class="grid-img view">
-                                        <img src="images/bac_thumb.png" alt="">
-                                        <div class="mask">
-                                            <h2>Title</h2>
-                                            <p>Your Text</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="hidden-xs hidden-sm">
-                                    <div class="icon js"></div>
-                                    <h1>BAC Messaging Platform</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 mg-bm-15">
-                        <div class="grid">
-                            <div class="grid-shot">
-                                <a href="#">
-                                    <div class="grid-img view">
-                                        <img src="images/bac_thumb.png" alt="">
-                                        <div class="mask">
-                                            <h2>Title</h2>
-                                            <p>Your Text</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="hidden-xs hidden-sm">
-                                    <div class="icon js"></div>
-                                    <h1>BAC Messaging Platform</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 mg-bm-15">
-                        <div class="grid">
-                            <div class="grid-shot">
-                                <a href="#">
-                                    <div class="grid-img view">
-                                        <img src="images/bac_thumb.png" alt="">
-                                        <div class="mask">
-                                            <h2>Title</h2>
-                                            <p>Your Text</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="hidden-xs hidden-sm">
-                                    <div class="icon js"></div>
-                                    <h1>BAC Messaging Platform</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
-    <!-- footer -->
-    <div id="footer">
-        <div class="wrap"></div>
-    </div>
+    <div ui-view></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -169,12 +50,19 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js({app,.tmp}) scripts/main.js -->
     <script src="scripts/myresume.js"></script>
-    <script src="scripts/main/main-ctrl.js"></script>
+    <script src="scripts/factory/service.js"></script>
+    <script src="scripts/factory/factory.js"></script>
+    <script src="scripts/controllers/list.js"></script>
+    <script src="scripts/controllers/detail.js"></script>
     <!-- inject:partials -->
     <!-- endinject -->
     <!-- endbuild -->

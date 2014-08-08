@@ -7972,8 +7972,9 @@ extend Bootstrap attribute
 }
 
 /* line 11, ../scss/tools/_extend.scss */
-.cursor-default {
+.tag {
   cursor: default;
+  margin: 0 2px;
 }
 
 /* Base */
@@ -8055,7 +8056,7 @@ Layout/Content
   padding: 0 20px;
 }
 
-/* line 10, ../scss/layout/_content.scss */
+/* line 9, ../scss/layout/_content.scss */
 #content {
   margin: 0 auto;
   padding: 0;
@@ -8063,7 +8064,7 @@ Layout/Content
   width: auto;
 }
 
-/* line 17, ../scss/layout/_content.scss */
+/* line 16, ../scss/layout/_content.scss */
 #main {
   float: left;
 }
@@ -8165,6 +8166,11 @@ modules/grid
 /* line 47, ../scss/modules/_grid.scss */
 .icon.js {
   background-image: url('../../images/page_javascript_32.png?1291303234');
+  background-repeat: no-repeat;
+}
+/* line 53, ../scss/modules/_grid.scss */
+.icon.app {
+  background-image: url('../../images/computer-coding.png?1407452174');
   background-repeat: no-repeat;
 }
 
@@ -8284,20 +8290,26 @@ modules/hover
 modules/section
 =========================== */
 /* line 6, ../scss/modules/_section.scss */
-.section-title img {
+.section-title .photo {
   border-radius: 50%;
   float: left;
-  margin: 0 8px 0 0;
   vertical-align: middle;
   width: 48px;
+  margin: -5px 10px 0 0;
 }
 /* line 13, ../scss/modules/_section.scss */
+.section-title .link {
+  display: inline-block;
+  width: 16px;
+  margin-left: 10px;
+}
+/* line 18, ../scss/modules/_section.scss */
 .section-title h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 30px;
+  font-size: 22px;
 }
 
-/* line 19, ../scss/modules/_section.scss */
+/* line 24, ../scss/modules/_section.scss */
 .section-slide {
   background: none repeat scroll 0 0 #fff;
   -webkit-border-radius: 3px;
@@ -8311,8 +8323,12 @@ modules/section
   clear: left;
   position: relative;
 }
+/* line 30, ../scss/modules/_section.scss */
+.section-slide .inner {
+  padding: 20px;
+}
 
-/* line 28, ../scss/modules/_section.scss */
+/* line 36, ../scss/modules/_section.scss */
 .section-article p::after {
   content: "\A\A";
   white-space: pre;

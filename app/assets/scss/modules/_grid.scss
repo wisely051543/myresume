@@ -50,4 +50,10 @@ modules/grid
             repeat: no-repeat;
         };
     }
+    &.app {
+        background: {
+            image: image-url("computer-coding.png");
+            repeat: no-repeat;
+        };
+    }
 }

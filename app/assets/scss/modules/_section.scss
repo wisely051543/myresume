@@ -3,16 +3,21 @@ modules/section
 =========================== */
 
 .section-title {
-    img {
+    .photo {
         border-radius: 50%;
         float: left;
-        margin: 0 8px 0 0;
         vertical-align: middle;
         width: 48px;
+        margin: -5px 10px 0 0;
+    }
+    .link {
+        display: inline-block;
+        width: 16px;
+        margin-left: 10px;
     }
     h1 {
         font-family: 'Oswald', sans-serif;
-        font-size: 30px;
+        font-size: 22px;
     }
 }
 
@@ -22,11 +27,13 @@ modules/section
     @include box-shadow(#aaaaaa 0 0 5px);
     clear: left;
     position: relative;
+    .inner {
+        padding: 20px;
+    }
 }
 
 .section-article {
     p::after {
-        // padding-left: 10px;
         content: "\A\A";
         white-space: pre;
     }

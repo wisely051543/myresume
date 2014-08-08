@@ -1,0 +1,59 @@
+<div id="nav-block">
+    <!-- navigation -->
+    <a href="#" ui-sref="list">
+        <span class="angle-left"></span>
+        <span class="nav-left hidden-xs">BACK</span>
+    </a>
+</div>
+<div class="entry-block">
+    <!-- title -->
+    <div class="row mg-bm-15">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
+            <div class="section-title">
+                <img class="photo img-responsive" ng-src="{{project.logo_img}}" alt="{{project.name}}">
+                <h1>
+                    {{project.name}}
+                    <a target="_blank" href="{{project.url}}" ng-hide="!project.url">
+                        <img class="link" src="images/link.png" />
+                    </a>
+                </h1>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- image slide -->
+        <div class="col-xs-12 col-sm-8 col-md-7 col-lg-7">
+            <div class="section-slide">
+                <div class="inner">
+
+                    <carousel interval="5000">
+                        <slide ng-repeat="image in project.images">
+                            <img ng-src="{{image.img}}" style="margin:auto;">
+                            <div class="carousel-caption">
+                                <h4>{{image.desc}}</h4>
+                            </div>
+                        </slide>
+                    </carousel>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- content -->
+        <div class="col-xs-12 col-sm-4 col-md-5 col-lg-5">
+
+            <hr>
+
+            <div class="section-article" ng-bind-html="html"></div>
+
+            <hr>
+
+            <a href="javascript:void(0);" class="btn btn-info btn-xs tag" data-ng-repeat="tag in tags">{{tag}}</a>
+        </div>
+    </div>
+
+
+</div>
